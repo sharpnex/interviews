@@ -1,0 +1,23 @@
+
+Les projets présents ici simulent l'intégration d'une librairie existante,
+pouvant être ancienne et écrite en C++, dans un environnement et une plate-forme
+moderne autour de .NET/C#
+
+-Décrivez le rôle de chaque projet
+
+-Une exception apparaît si on tente d'exécuter le projet CsharpSample :
+>System.IO.FileNotFoundException was unhandled
+>Message: An unhandled exception of type 'System.IO.FileNotFoundException' occurred in mscorlib.dll
+>Additional information: Impossible de charger le fichier ou l'assembly 'CppMathWrapper.dll'
+>ou une de ses dépendances. Le module spécifié est introuvable.
+
+-Avez-vous une idée du problème rencontré ?
+
+-Comment procédez-vous pour déboguer ce problème ? Avec quels outils ? Quelles astuces ?
+
+-Essayez de corriger ce problème (vous pouvez modifier les projets au besoin)
+
+-Décrivez les étapes, les pistes que vous avez suivi dans la correction du problème.
+
+-En cas d'échec, quels sont les points que vous avez réussi à identifier, quels sont ceux
+qui vous ont bloqués.

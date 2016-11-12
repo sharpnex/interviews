@@ -1,0 +1,12 @@
+﻿
+
+Ce programme comporte un bug au lancement, il génère une exception sur le chargement de l'assembly log4net.
+
+
+-Lancer le programme, noter et commentez le problème rencontré.
+
+-Pouvez-vous expliquer de manière détaillée la nature du bug rencontré?
+
+-Comment procédez-vous pour tenter de déboguer ce programme ? Quels outils utilisez-vous ?
+
+-Comment allez-vous corriger ce problème ?
