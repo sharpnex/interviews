@@ -4,8 +4,10 @@ using System.Linq;
 
 namespace _01_Introducing
 {
-    public class LinqSelect1
+    public class Linq2
     {
+        #region -1-
+
         public class Person
         {
             public string Name { get; set; }
@@ -17,12 +19,16 @@ namespace _01_Introducing
 
             string[] names = {"Ada", "Tom", "Rob", "Jim", "Joe"};
 
-            // Ecrire une ligne de code générant une liste de personnes avec les noms ci-dessus.
+            // Utilisez Linq pour créer une liste de personnes avec les noms ci-dessus.
             IList<Person> persons = null; //
 
             Console.ReadLine();
             Console.Clear();
         }
+
+        #endregion
+
+        #region -2-
 
         public static void Select2()
         {
@@ -30,12 +36,16 @@ namespace _01_Introducing
 
             int[] ages = {40, 35, 28, 41, 39};
 
-            // Ecrire une ligne de code générant une nouvelle liste d'âges augmentés de 1 année.
+            // Utilisez linq pour augmenter tous les âges d'une année.
             IList<int> nextAges = null;
 
             Console.ReadLine();
             Console.Clear();
         }
+
+        #endregion
+
+        #region -3-
 
         public static void Select3()
         {
@@ -44,7 +54,7 @@ namespace _01_Introducing
             int[] months = {2, 5, 1, 12, 8};
             string[] monthsNames = {"JAN", "FEV", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"};
 
-            // Ecrire une ligne de code générant les mois en lettres à partir de la liste 'months'
+            // Utilisez Linq pour transformer 'months' en liste de mois en lettres.
             IList<string> monthsLetters = null;
 
             foreach (var month in monthsLetters)
@@ -56,6 +66,10 @@ namespace _01_Introducing
             Console.Clear();
         }
 
+        #endregion
+
+        #region -4-
+
         public static void Select4()
         {
             Console.Clear();
@@ -63,7 +77,7 @@ namespace _01_Introducing
             int[] months = {2, 5, 1, 12, 8};
             string[] monthsNames = {"JAN", "FEV", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"};
 
-            // Ecrire une ligne de code générant la liste des paires {numéro du mois, lettres du mois} à partir de 'months'
+            // Utilisez Linq pour transformer 'months' en une liste de paires {numéro du mois / lettres du mois}.
             // et l'afficher.
             // var monthsAndLetters = months......
 
@@ -75,6 +89,10 @@ namespace _01_Introducing
             Console.ReadLine();
             Console.Clear();
         }
+
+        #endregion
+
+        #region -5-
 
         public class Stock
         {
@@ -100,14 +118,14 @@ namespace _01_Introducing
             french.Stocks.Add(new Stock {Name = "GLE"});
 
             Market german = new Market();
-            german.Stocks.Add(new Stock { Name = "DTB" });
-            german.Stocks.Add(new Stock { Name = "RWE" });
+            german.Stocks.Add(new Stock {Name = "DTB"});
+            german.Stocks.Add(new Stock {Name = "RWE"});
 
             EuropeanMarkets eur = new EuropeanMarkets();
             eur.Markets.Add(french);
             eur.Markets.Add(german);
 
-            // Ecrire une ligne de code qui génère la liste de tous les stocks européens.
+            // Utilisez Linq pour lister tous les stocks européens.
             IList<Stock> europeanStocks = null;
 
             foreach (var stock in europeanStocks)
@@ -118,5 +136,7 @@ namespace _01_Introducing
             Console.ReadLine();
             Console.Clear();
         }
+
+        #endregion
     }
 }
