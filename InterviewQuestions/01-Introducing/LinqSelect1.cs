@@ -17,7 +17,7 @@ namespace _01_Introducing
 
             string[] names = {"Ada", "Tom", "Rob", "Jim", "Joe"};
 
-            // Ecrire une ligne de code générant une liste de personnes avec les noms ci-dessus.
+            // Ecrire une ligne de code générant une liste de Person ayant les noms ci-dessus.
             IList<Person> persons = null; //
 
             Console.ReadLine();

@@ -1,12 +1,14 @@
 ﻿
 
-Ce programme comporte un bug au lancement, il génère une exception sur le chargement de l'assembly log4net.
+Ce programme comporte un bug au lancement, il génère une exception concernant log4net.
 
 
 -Lancer le programme, noter et commentez le problème rencontré.
 
--Pouvez-vous expliquer de manière détaillée la nature du bug rencontré?
+-Pouvez-vous expliquer de manière détaillée la nature du bug ?
 
--Comment procédez-vous pour tenter de déboguer ce programme ? Quels outils utilisez-vous ?
+-Comment procédez-vous pour déboguer ce programme ? Quels outils utilisez-vous ? Quelle stratégie ?
 
--Comment allez-vous corriger ce problème ?
+-Comment peut-on corriger ce problème ?
+
+-Si vous avez été bloqué, expliquez les points de blocage, que décidez-vous de faire ?
