@@ -10,7 +10,7 @@ namespace _01_Introducing
     {
         private static void Main(string[] args)
         {
-            LinqSelect1.Select5();
+            Linq3.Question3();
 
             Console.WriteLine(">>> End <<<");
             Console.ReadLine();
